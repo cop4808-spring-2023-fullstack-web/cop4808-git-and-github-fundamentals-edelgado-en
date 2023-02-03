@@ -108,3 +108,8 @@ button {
 .percent:active {
     background-color: rgb(123, 189, 255);
 }
+
+.exponent {
+    background-color: #818cf8;
+    font-weight: bold;
+}
