@@ -1,6 +1,11 @@
 # Name
 ## Enrique Delgado
 
+## Video Walkthrough
+
+Here's a walkthrough of the four new operations added to the calculator:
+
+<img src='http://g.recordit.co/g05TrPMXKo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # :wave: The Basics of GitHub 
 
