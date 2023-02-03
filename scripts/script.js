@@ -27,7 +27,7 @@ function clickButton() {
             if(buttons[i].classList.contains('operand')) {
                 inputOperand(buttons[i].value);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('operator')) {
+            } else if(buttons[i].classList.contains('operator') || buttons[i].classList.contains('exponent')) {
                 inputOperator(buttons[i].value);
             } else if(buttons[i].classList.contains('equals')) {
                 inputEquals();
@@ -166,16 +166,31 @@ function inputBackspace() {
 function operate(x, y, op) {
     if(op === '+') {
         return x + y;
+    
     } else if(op === '-') {
         return x - y;
+    
     } else if(op === '*') {
         return x * y;
+    
     } else if(op === '/') {
         if(y === 0) {
             return 'lmao';
         } else {
-        return x / y;
+            return x / y;
         }
+    
+    } else if (op === 'x^2') {
+        return x * x;
+    
+    } else if (op === 'x^3') {
+        return x * x * x;
+    
+    } else if (op === 'x^4') {
+        return x * x * x * x;
+    
+    } else if (op === 'x^5') {
+        return x * x * x * x * x;
     }
 }
 
